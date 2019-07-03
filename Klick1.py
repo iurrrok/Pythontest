@@ -35,8 +35,8 @@ def multiply(x,y):
 		pyautogui.press('tab',interval=2)# делает рефреш
 	pyautogui.press('enter')# делает рефреш
 	pyautogui.moveTo(500, 650, duration=2)
-	pyautogui.click(interval=100)
-	pyautogui.click
+	pyautogui.click(interval=100) ##########не делает клик
+	pyautogui.click ##########тоже не делает клик,хотя в другом файле работает нормально
 	pyautogui.hotkey('ctrl', 'w')
 # 2
 #while 1 == 1:
